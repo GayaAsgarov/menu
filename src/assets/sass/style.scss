@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #172940;
+    margin-top: 30px;
+}
+.underline{
+    width: 80px;
+    height: 4px;
+    background: rgb(100, 165, 214);
+    margin: 0 auto;
+}
+
+.categories{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    button{
+        color: rgb(100, 165, 214);
+        text-transform: capitalize;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 15px;
+        cursor: pointer;
+        border: none;
+        background: none;
+        border-radius: 5px;
+        transition: .4s;
+        &:hover{
+            background: rgb(100, 165, 214);
+            color: #fff;
+        }
+    }
+}
+
+.products{
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .product{
+        display: flex;
+        margin: 20px 0;
+        .img-prod{
+            img{
+                width: 225px;
+                height: 150px;
+                border: 0.2rem solid rgb(100, 165, 214);
+                border-radius: 10px;
+            }
+        }
+        .info-prod{
+            margin-left: 1%;
+            header{
+                width: 324px;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 0.5px dotted #617d98;
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+                h4{
+                    font-size: 16px;
+                    text-transform: capitalize;
+                }
+                .title{
+                    color: #102a42;
+                }
+                .price{
+                    color: rgb(100, 165, 214);
+                }
+            }
+            p{
+                width: 324px;
+                font-size: 16px;
+                color: #617d98;
+            }
+        }
+    }
+}

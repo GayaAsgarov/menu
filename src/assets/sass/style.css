@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #172940;
+  margin-top: 30px;
+}
+
+.underline {
+  width: 80px;
+  height: 4px;
+  background: #64a5d6;
+  margin: 0 auto;
+}
+
+.categories {
+  width: 25%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.categories button {
+  color: #64a5d6;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  border-radius: 5px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.categories button:hover {
+  background: #64a5d6;
+  color: #fff;
+}
+
+.products {
+  width: 85%;
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.products .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+.products .product .img-prod img {
+  width: 225px;
+  height: 150px;
+  border: 0.2rem solid #64a5d6;
+  border-radius: 10px;
+}
+
+.products .product .info-prod {
+  margin-left: 1%;
+}
+
+.products .product .info-prod header {
+  width: 324px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 0.5px dotted #617d98;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.products .product .info-prod header h4 {
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.products .product .info-prod header .title {
+  color: #102a42;
+}
+
+.products .product .info-prod header .price {
+  color: #64a5d6;
+}
+
+.products .product .info-prod p {
+  width: 324px;
+  font-size: 16px;
+  color: #617d98;
+}
+/*# sourceMappingURL=style.css.map */
